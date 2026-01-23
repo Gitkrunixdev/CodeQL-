@@ -58,10 +58,9 @@ jobs:
       # fix-security-vulnerabilities-additional-steps
 
       # In README.md, switch step 3 for step 4.
-      - name: Update to step 4
-        uses: skills/action-update-step@v2
+      - name: Update to step 1
+        uses: skills/action-update-step@9c1b1a0c5c8a0c6e9f3b7a6d2e4c1a9b8f7e6d5c
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          from_step: 3
-          to_step: 4
-          branch_name: tbd-branch-name
+          from_step: 0
+
