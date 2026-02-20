@@ -7,7 +7,7 @@ name = "pypi"
 flask = "*"
 python-dotenv = "*"
 jinja2 = "==3.1.6"
-werkzeug = "==3.1.4"
+werkzeug = "==3.1.6"
 
 [dev-packages]
 
